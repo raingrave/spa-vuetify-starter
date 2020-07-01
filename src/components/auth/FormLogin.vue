@@ -82,12 +82,12 @@
     methods: {
       sendForm (credentials) {
         console.log(credentials)
-        if (credentials.email == 'raintech@outlook.com' && credentials.password == 123456) {
+        if (credentials.email == 'admin@admin.com' && credentials.password == 123456) {
           this.loading = true
           setTimeout(() => {
             this.loading = false
             localStorage.setItem('user', { id: 1, name: 'Luis Fernando' })
-            this.$router.push({ name: 'dashboard.profile' })
+            this.$router.push({ name: 'dashboard' })
           }, 3000)
         }
       }

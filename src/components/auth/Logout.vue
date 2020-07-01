@@ -1,11 +1,7 @@
 <template>
-  <v-row>
-    <v-col>{{ isLogged }}
-      <v-icon @click="logout()">
-        mdi-logout-variant
-      </v-icon>
-    </v-col>
-  </v-row>
+  <v-icon @click="logout()">
+    mdi-logout-variant
+  </v-icon>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col>
-      Profile
+      <h1>Profile</h1>
     </v-col>
   </v-row>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <v-row>
     <v-col>
-      Index
+      <h1>Dashboard</h1>
     </v-col>
   </v-row>
 </template>
